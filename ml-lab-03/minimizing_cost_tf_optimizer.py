@@ -8,7 +8,7 @@ X = [1, 2, 3]
 Y = [1, 2, 3]
 
 # Set wrong model weights
-W = tf.Variable(-5.0)
+W = tf.Variable(5.0)
 
 # Linear model
 hypothesis = X * W
